@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lead Advisors</title>
+    <link rel="shortcut icon" href="images/logo-icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <main class="main" id="blur">
+      <img src="images/Vector-left.svg" class="img vector-left" />
+      <img src="images/Vector-right.svg" class="img vector-right" />
+
+      <header class="home__logo">
+        <a href="index.html"
+          ><img src="images/logo.svg" alt="Under Construction"
+        /></a>
+      </header>
+      <div class="container">
+        <section class="home__section" id="home">
+          <h1 class="home__title">Under Construction</h1>
+          <p class="section__title">
+            We're making lots of improvements and will be<br />
+            back soon
+          </p>
+        </section>
+
+        <section class="time__section" id="time">
+          <div id="countdown">
+            <div>
+              <span id="days"></span>
+              <div class="time-label">
+                <span id="day">Days</span
+                ><img src="images/Vector-time.svg" class="img__time-lebel" />
+              </div>
+            </div>
+            <div>
+              <span id="hours"></span>
+              <div class="time-label">
+                <span id="hour">Hours</span
+                ><img src="images/Vector-time.svg" class="img__time-lebel" />
+              </div>
+            </div>
+            <div>
+              <span id="minutes"></span>
+              <div class="time-label">
+                <span id="minute">Minutes</span
+                ><img src="images/Vector-time.svg" class="img__time-lebel" />
+              </div>
+            </div>
+            <div>
+              <span id="seconds"></span>
+              <div class="time-label">
+                <span id="second">Seconds</span
+                ><img src="images/Vector-time.svg" class="img__time-lebel" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section__event" id="event">
+          <div class="container__event">
+            <p class="section__title">Check our event page when you wait:</p>
+            <a href="https://leadentrepreneursummit.com/" class="button__event"
+              >Go to the event<i class="ri-arrow-right-line"></i
+            ></a>
+          </div>
+        </section>
+
+        <footer class="footer" id="footer">
+          <div class="footer__bg">
+            <form class="newsletter__form" id="subscribe-form">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your Email and get notified"
+                class="newsletter__input"
+                required
+              />
+              <span class="error-message" id="email-error"></span>
+              <button
+                type="submit"
+                id="subscribe-btn"
+                class="button newsletter__button"
+              >
+                <i class="ri-arrow-right-line"></i>
+              </button>
+            </form>
+
+            <a href="#allevents" class="active-link button__other"
+              >Other Events<i class="ri-arrow-down-line"></i>
+            </a>
+          </div>
+        </footer>
+      </div>
+
+      <section class="section section__allevents" id="allevents">
+        <div class="blocks-heading">
+          <h1 class="wedo__title home__title">ALL EVENTS</h1>
+        </div>
+
+        <div class="wrapper">
+          <ul class="main_box">
+            <li class="box">
+              <label class="accordion-title">
+                <h2 class="title__events">Hawaiian party</h2>
+                <h1>01</h1>
+              </label>
+              <div class="events">
+                <div class="events_detail">
+                  <h1 class="number__events">01</h1>
+                  <h3 class="events_name">Hawaiian party</h3>
+                  <p class="events__date">13.03.2023</p>
+                  <button
+                    onclick="window.location.href='https://docs.google.com/document/d/1GPItQp07Cr-F6g1vnNp1VtbWz4lOV8jXaER5zwFtaQs/edit'"
+                    class="button more__information"
+                  >
+                    More information
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="box">
+              <label class="accordion-title">
+                <h2 class="title__events">Mafia party</h2>
+                <h1>02</h1>
+              </label>
+              <div class="events">
+                <div class="events_detail">
+                  <h1 class="number__events">02</h1>
+                  <h3 class="events_name">Mafia party</h3>
+                  <p class="events__date">13.03.2023</p>
+                  <button
+                    onclick="window.location.href='https://docs.google.com/document/d/1GPItQp07Cr-F6g1vnNp1VtbWz4lOV8jXaER5zwFtaQs/edit'"
+                    class="button more__information"
+                  >
+                    More information
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="box">
+              <label class="accordion-title">
+                <h2 class="title__events">Party</h2>
+                <h1>03</h1>
+              </label>
+              <div class="events">
+                <div class="events_detail">
+                  <h1 class="number__events">03</h1>
+                  <h3 class="events_name">Party</h3>
+                  <p class="events__date">13.03.2023</p>
+                  <button
+                    onclick="window.location.href='https://docs.google.com/document/d/1GPItQp07Cr-F6g1vnNp1VtbWz4lOV8jXaER5zwFtaQs/edit'"
+                    onclick="window.location.href='https://docs.google.com/document/d/1GPItQp07Cr-F6g1vnNp1VtbWz4lOV8jXaER5zwFtaQs/edit'"
+                    class="button more__information"
+                  >
+                    More information
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="box">
+              <label class="accordion-title">
+                <h2 class="title__events">Party on the beach</h2>
+                <h1>04</h1>
+              </label>
+              <div class="events">
+                <div class="events_detail">
+                  <h1 class="number__events">04</h1>
+                  <h3 class="events_name">Party on the beach</h3>
+                  <p class="events__date">13.03.2023</p>
+                  <button
+                    onclick="window.location.href='https://docs.google.com/document/d/1GPItQp07Cr-F6g1vnNp1VtbWz4lOV8jXaER5zwFtaQs/edit'"
+                    class="button more__information"
+                  >
+                    More information
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="box">
+              <label class="accordion-title">
+                <h2 class="title__events">Home Security</h2>
+                <h1>05</h1>
+              </label>
+              <div class="events">
+                <div class="events_detail">
+                  <h1 class="number__events">05</h1>
+                  <h3 class="events_name">Home Security</h3>
+                  <p class="events__date">13.03.2023</p>
+                  <button
+                    onclick="window.location.href='https://docs.google.com/document/d/1GPItQp07Cr-F6g1vnNp1VtbWz4lOV8jXaER5zwFtaQs/edit'"
+                    class="button more__information"
+                  >
+                    More information
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="box">
+              <label class="accordion-title">
+                <h2 class="title__events">Network Design & Implementation</h2>
+                <h1>06</h1>
+              </label>
+              <div class="events">
+                <div class="events_detail">
+                  <h1 class="number__events">06</h1>
+                  <h3 class="events_name">Network Design & Implementation</h3>
+                  <p class="events__date">13.03.2023</p>
+                  <button
+                    onclick="window.location.href='https://docs.google.com/document/d/1GPItQp07Cr-F6g1vnNp1VtbWz4lOV8jXaER5zwFtaQs/edit'"
+                    class="button more__information"
+                  >
+                    More information
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="box">
+              <label class="accordion-title">
+                <h2 class="title__events">System Design & Engineering</h2>
+                <h1>07</h1>
+              </label>
+              <div class="events">
+                <div class="events_detail">
+                  <h1 class="number__events">07</h1>
+                  <h3 class="events_name">System Design & Engineering</h3>
+                  <p class="events__date">13.03.2023</p>
+                  <button
+                    onclick="window.location.href='https://docs.google.com/document/d/1GPItQp07Cr-F6g1vnNp1VtbWz4lOV8jXaER5zwFtaQs/edit'"
+                    class="button more__information"
+                  >
+                    More information
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="box">
+              <label class="accordion-title">
+                <h2 class="title__events">Client Care Plans</h2>
+                <h1>08</h1>
+              </label>
+              <div class="events">
+                <div class="events_detail">
+                  <h1 class="number__events">08</h1>
+                  <h3 class="events_name">Client Care Plans</h3>
+                  <p class="events__date">13.03.2023</p>
+                  <button
+                    onclick="window.location.href='https://docs.google.com/document/d/1GPItQp07Cr-F6g1vnNp1VtbWz4lOV8jXaER5zwFtaQs/edit'"
+                    class="button more__information"
+                  >
+                    More information
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <div id="popup" class="popup">
+      <div class="popup__content" id="popup__content">
+        <div class="modal__close close-modal" title="Close">
+          <i class="ri-close-line"></i>
+        </div>
+        <h1>SUCCESS!</h1>
+        <p id="popup-message">
+          You have successfully subscribed to the email newsletter
+        </p>
+        <a
+          href="index.html"
+          onclick="toggle()"
+          class="button__close close-modal"
+          >Close</a
+        >
+      </div>
+    </div>
+
+    <script src="scrollreveal.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
