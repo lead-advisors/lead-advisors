@@ -80,7 +80,7 @@ $(document).ready(function () {
 
     $.ajax({
       type: "POST",
-      url: "http://lead-advisors.somee.com/api/email",
+      url: "https://lead-advisors.somee.com/api/email",
       data: JSON.stringify(formData),
       contentType: "application/json",
       encode: true,
